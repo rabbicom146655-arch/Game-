@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    user-select: none;
+}
+
+body {
+    background-color: #121318;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.container {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90vh;
+}
+
+.profile {
+    font-size: 18px;
+    font-weight: 600;
+    color: #0088cc;
+}
+
+.score-container h1 {
+    font-size: 56px;
+    color: #f1c40f;
+    margin-top: 10px;
+}
+
+.tap-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.coin {
+    font-size: 130px;
+    cursor: pointer;
+    transition: transform 0.08s ease;
+}
+
+.coin:active {
+    transform: scale(0.90);
+}
+
+.energy-container {
+    font-size: 18px;
+    font-weight: bold;
+    color: #e74c3c;
+}
