@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tap to Earn Game</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Telegram Web App SDK -->
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- ইউজার প্রোফাইল -->
+        <div class="profile">
+            👤 <span id="user-name">Player</span>
+        </div>
+
+        <!-- স্কোর ও এনার্জি -->
+        <div class="score-container">
+            <h1 id="score">0</h1>
+            <p>Coins</p>
+        </div>
+
+        <!-- ট্যাপ করার আইকন/কয়েন -->
+        <div class="tap-area">
+            <div id="coin" class="coin">🪙</div>
+        </div>
+
+        <!-- এনার্জি বার -->
+        <div class="energy-container">
+            <p>⚡ <span id="energy">1000</span> / 1000</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
